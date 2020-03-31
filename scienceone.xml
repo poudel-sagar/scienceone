@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scienceone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/measurement"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:background="@drawable/measurement"
+            android:text="Measurement"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:textSize="45dp"/>
+
+        <Button
+            android:id="@+id/pressure"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/simple_machine"
+            android:background="@drawable/pressure"
+            android:layout_marginTop="25dp"
+            android:text="pressure"
+            android:textSize="39dp" />
+
+        <Button
+            android:id="@+id/simple_machine"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/measurement"
+            android:background="@drawable/gradient1"
+            android:text="simple-machine"
+            android:textSize="36dp"
+            android:layout_marginTop="22dp"
+           />
+
+        <Button
+            android:id="@+id/work"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:background="@drawable/work"
+            android:text="Work Energy"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/heat"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/work"
+            android:background="@drawable/heat"
+            android:text="Heat"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/sound"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/heat"
+            android:background="@drawable/gradient1"
+            android:text="sound"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/light"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/sound"
+            android:background="@drawable/light"
+            android:text="light"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/magnetism"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/light"
+            android:background="@drawable/gradient2"
+            android:text="magnetism"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/velocity"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/magnetism"
+            android:background="@drawable/velocity"
+            android:text="velocity/ acceleration"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/matter"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/velocity"
+            android:background="@drawable/matter"
+            android:text="matter"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/acid"
+            android:layout_width="370dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/matter"
+            android:background="@drawable/acid"
+            android:text="acid base salt"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/mixture"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/acid"
+            android:background="@drawable/mixture"
+            android:text="mixture"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/chemicals"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/mixture"
+            android:background="@drawable/chemicals"
+            android:text="useful chemicals"
+            android:textSize="29dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/metals"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/chemicals"
+            android:background="@drawable/metals"
+            android:text="metals/Non metals"
+            android:textSize="29dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/cell_tissue"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/metals"
+            android:background="@drawable/gradient1"
+            android:text="cell/Tissue"
+            android:textSize="34dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/life_processes"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_below="@+id/cell_tissue"
+            android:background="@drawable/life_processes"
+            android:text="life processes"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/living_beings"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/life_processes"
+            android:background="@drawable/gradient2"
+            android:text="living beings"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/weather"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/living_beings"
+            android:background="@drawable/weather"
+            android:text="weather/climate"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/earth_space"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/weather"
+            android:background="@drawable/earth_space"
+            android:text="earth and space"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/structure_earth"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/earth_space"
+            android:background="@drawable/structure_earth"
+            android:text="structure of earth"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/environment"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/structure_earth"
+            android:background="@drawable/environment"
+            android:text="environment"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/degradation"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/environment"
+            android:background="@drawable/degradation"
+            android:text="degradation/conservation"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/sustainable_development"
+            android:layout_width="370dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/degradation"
+            android:background="@drawable/sustainable_development"
+            android:text="sustainable development"
+            android:textSize="39dp"
+            android:layout_marginTop="25dp"/>
+
+
+    </LinearLayout>
+
+    
+
+</ScrollView>
