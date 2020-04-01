@@ -1,0 +1,58 @@
+ if (position==0){
+
+
+                    Intent int1=new Intent(scienceone.this,sciencechapter_one.class);
+                    startActivity(int1);
+                }
+                if (position==1){
+
+
+                    Intent int2=new Intent(scienceone.this,sciencechapter_two.class);
+                    startActivity(int2);
+                }
+                if (position==2){
+
+                    Intent int3=new Intent(scienceone.this,sciencechapter_three.class);
+                    startActivity(int3);
+                }
+                if (position==3){
+
+                    Intent int4=new Intent(scienceone.this,sciencechapter_four.class);
+                    startActivity(int4);
+                }
+                if (position==4){
+
+                    Intent int5=new Intent(scienceone.this,sciencechapter_five.class);
+                    startActivity(int5);
+                }
+                if (position==5){
+
+                    Intent int6=new Intent(scienceone.this,sciencechapter_six.class);
+                    startActivity(int6);
+                }
+                if (position==6){
+
+                    Intent int7=new Intent(scienceone.this,sciencechapter_seven.class);
+                    startActivity(int7);
+                }
+                if (position==7){
+
+                    Intent int8=new Intent(scienceone.this,sciencechapter_eight.class);
+                    startActivity(int8);
+
+                }
+                if (position==8){
+
+                    Intent int9=new Intent(scienceone.this,sciencechapter_nine.class);
+                    startActivity(int9);
+                }
+                if (position==9){
+
+                    Intent int10=new Intent(scienceone.this,sciencechapter_ten.class);
+                    startActivity(int10);
+                }
+                if (position==10){
+
+                    Intent int11=new Intent(scienceone.this,sciencechapter_eleven.class);
+                    startActivity(int11);
+                }
